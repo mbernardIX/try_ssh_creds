@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-#
-# Copyright (C) Michael Ihde 2004 <mike.ihde@randomwalking.com>
-#
 # Distributed under the Python License
 #
 # iprange is a useful module that creates iprange generators similar
@@ -11,14 +6,6 @@
 # for ip in iprange("192.168.1.0/24")
 #     print ip
 #
-# The above statement will scan the class "C" subnet.  You can also
-# use wildcards, or specify a beginning and an end ip address
-#
-# Revision history
-#     0.1       - Aug 17th 2004 : Initial release
-#
-#
-# Todo : Add sanity checks to IP address
 
 import socket
 import struct
